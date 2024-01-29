@@ -1,0 +1,20 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	/* justify-content: center; */
+	gap: 20px;
+}
+
+#picture {
+	border: 20px inset gold;
+	background: url('https://www.msk-guide.ru/img/146/143165big.jpg')
+		center/contain;
+	width: 20em;
+	height: 14em;
+	margin: 100px 150px;
+}
